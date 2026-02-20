@@ -290,6 +290,10 @@ HCE works well for single-developer local use (up to ~10K graph nodes, hundreds 
 
 For a full analysis of scaling limits and fixes, see [SCALABILITY.md](SCALABILITY.md).
 
+## Competitive Landscape
+
+HCE's three-structure parallel retrieval with knapsack budgeting is unique among LLM memory solutions. See [COMPETITORS.md](COMPETITORS.md) for a detailed comparison with Mem0, Letta (MemGPT), Zep, Cognee, and SimpleMem — including where HCE leads, where it needs improvement, and the roadmap to close the gaps.
+
 ## License
 
 MIT
