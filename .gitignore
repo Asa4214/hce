@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# HCE persisted state
+.hce_state/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MCP config (contains local paths)
+.mcp.json
+
+# OS
+.DS_Store
+Thumbs.db

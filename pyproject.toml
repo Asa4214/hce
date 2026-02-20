@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hce"
+version = "0.1.0"
+description = "Holographic Context Engine — smart memory middleware for LLMs"
+requires-python = ">=3.10"
+dependencies = [
+    "networkx>=3.0",
+    "mcp[cli]>=1.0",
+]
+
+[tool.setuptools]
+py-modules = [
+    "hce_core",
+    "semantic_tree",
+    "entity_extractor",
+    "project_crawler",
+    "hce_pipeline",
+    "hce_mcp_server",
+]
+
+[project.optional-dependencies]
+embeddings = [
+    "sentence-transformers>=3.0",
+]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["test_*.py"]
