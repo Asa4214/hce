@@ -276,6 +276,10 @@ All 4 implementation phases are complete:
 
 **194 tests passing.** See the [architecture plan](architecture_plan.md) for the full design rationale.
 
+## Scalability
+
+HCE works well for single-developer local use (up to ~10K graph nodes, hundreds of interactions). For scaling beyond that, see the [Scalability Guide](SCALABILITY.md) — it covers current capacity, known bottlenecks, and the recommended upgrade path (SQLite backend, semantic embeddings, incremental tree insertion).
+
 ## Known Limitations
 
 - **Vectorizer:** Uses feature-hashing (bag-of-words), not semantic embeddings. "car" and "automobile" won't match.
@@ -283,6 +287,8 @@ All 4 implementation phases are complete:
 - **NER:** Regex/heuristic-based, not ML. Misses many entities in natural text.
 - **Non-Python parsers:** Java, JS/TS, Go, Rust, C/C++, and Ruby use regex-based parsing (no semantic understanding, may miss complex patterns). Python uses full AST parsing.
 - **Platform:** File locking uses POSIX `fcntl.flock()` — not available on Windows without adaptation.
+
+For a full analysis of scaling limits and fixes, see [SCALABILITY.md](SCALABILITY.md).
 
 ## License
 
